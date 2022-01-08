@@ -687,8 +687,8 @@ svg {
   color: #fff;
 }
 .box-projects ul li:hover a {
-  width: 35%;
-  height: 35%;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   color: #fff;
 }
