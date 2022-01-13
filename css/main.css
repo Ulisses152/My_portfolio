@@ -201,11 +201,11 @@ body {
 
 #nav-icon2.open span:nth-child(1) {
   left: 3px;
-  top: 15px;
+  top: 16.2px;
 }
 
 #nav-icon2.open span:nth-child(2) {
-  left: calc(50% - 8px);
+  left: calc(50% - 8.2px);
   top: 23px;
 }
 
