@@ -6,22 +6,36 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ulisses Dória - Desenvolvedor Fron-End</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/responsive.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&family=Qwitcher+Grypen:wght@400;700&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   <script src="https://kit.fontawesome.com/d4e918b0ed.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin="" />
 
 
 </head>
 
 <body>
+  <!--Botão menu-->
+  <div id="nav-icon2">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <!--//Botão menu-->
   <!--Menu latereal-->
   <div class="menu_aside">
     <div class="box_logo">
-      <img src="./images/ulisses_doria.svg" alt="Logo" class="logo">
+      <a href="#home">
+        <img src="./images/ulisses_doria.svg" alt="Logo" class="logo">
+      </a>
       <h3>Ulisses</h3>
       <p>Dev Front-End</p>
     </div>
@@ -30,7 +44,7 @@
       <a href="#about">Sobre</a>
       <a href="#skills">Habilidades</a>
       <a href="#projects">Projetos</a>
-      <a href="#">Contato</a>
+      <a href="#contact">Contato</a>
     </nav>
     <!--//Nav bar-->
     <div class="socials">
@@ -47,7 +61,7 @@
   </div>
   <!--//Menu latereal-->
   <!--section home-->
-  <section class="home">
+  <section id="home" class="home">
     <span></span>
     <h1>Olá,<br> Eu sou <br>Ulisses D<span>
         <ion-icon name="code"></ion-icon>
@@ -212,18 +226,54 @@
           <span class="error"></span>
         </div>
         <div class="input mensagem">
-          <textarea type="text-area" required placeholder="Mensagem"></textarea>
+          <input type="text" required placeholder="Mensagem"></input>
           <span class="error"></span>
         </div>
         <button class="btn-submit" type="submit">Enviar</button>
       </form>
     </div>
+
+    <div class="box-map">
+      <div id="map"></div>
+    </div>
   </section>
 
   <!--//section contact-->
   <!--js/animete.js-->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
   <script src="anime.min.js"></script>
   <script src="./js/script.js"></script>
+  <script src="./js/map.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!--Script menu-->
+  <script>
+    $(document).ready(function () {
+      $('#nav-icon2').click(function () {
+        $(this).toggleClass('open');
+      });
+    });
+    $(document).ready(function () {
+      $('#nav-icon2').click(function () {
+        $('.menu_aside').toggleClass('open-menu');
+      });
+    });
+    $(document).ready(function () {
+      $('.menu_aside a').each(function () {
+        $('.menu_aside a').click(function () {
+          $('.menu_aside').removeClass('open-menu');
+        });
+      });
+    });
+    $(document).ready(function () {
+      $('.menu_aside a').each(function () {
+        $('.menu_aside a').click(function () {
+          $('#nav-icon2').removeClass('open');
+        });
+      });
+    });
+  </script>
+  <!--//Script menu-->
+
   <!--Animações animate.js-->
   <script>
     anime({
@@ -293,7 +343,15 @@
     });
 
   </script>
+
   <!--//Animações animate.js-->
+
+  <!--script map-->
+  <script>
+
+
+  </script>
+  <!--//script map-->
 </body>
 
 </html>

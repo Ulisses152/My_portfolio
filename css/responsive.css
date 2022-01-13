@@ -1,0 +1,436 @@
+@media only screen and (max-width: 1024px) {
+  .home h1 {
+    font-size: 5.5vw;
+  }
+
+  .box-icons i {
+    font-size: 7vw;
+  }
+
+  .box-map #map {
+    height: 75%;
+    top: 4.6rem;
+  }
+  .leaflet-popup-content-wrapper .leaflet-popup-content {
+    font-size: 1rem;
+
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+  }
+  .leaflet-popup-content-wrapper,
+  .leaflet-popup-tip {
+    background: white;
+    width: 25vw;
+    color: #333;
+    box-shadow: 0 3px 14px rgb(0 0 0 / 40%);
+  }
+  .box-courses .card-course {
+    margin-right: 0;
+  }
+  .box-courses {
+    flex-wrap: wrap;
+  }
+  .card-course {
+    width: 100%;
+    background-color: #373737;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 2px;
+    margin-right: 6%;
+    position: relative;
+  }
+}
+
+/*tablet*/
+@media only screen and (max-width: 768px) {
+  .menu_aside {
+    width: 100%;
+    z-index: 999990;
+    transition: 0.2s;
+    right: -100%;
+    position: fixed;
+    transition: 0.2s;
+  }
+  #nav-icon2 {
+    display: block;
+  }
+  .logo {
+    cursor: pointer;
+    width: 13rem;
+    padding-bottom: 1rem;
+  }
+  .box_logo h3 {
+    font-size: 6.5vw;
+  }
+  .box_logo p {
+    font-size: 4.5vw;
+  }
+  .menu a {
+    font-size: 6.2vw;
+
+    line-height: 20vw;
+  }
+  .socials ion-icon {
+    font-size: 9.6vw;
+    padding: 2.3rem 1rem;
+    transition: 0.3s;
+  }
+  .home,
+  .about,
+  .skills,
+  #projects,
+  #contact {
+    width: 100%;
+    margin-left: 0;
+    padding: 6rem 5rem;
+  }
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .home span::before {
+    top: -17rem;
+  }
+  .home span::after {
+    top: -7.3rem;
+  }
+  .home h1::before {
+    top: -4rem;
+    left: -2rem;
+  }
+  .home h1::after {
+    bottom: -2rem;
+    right: -2rem;
+  }
+  .home h1 {
+    font-size: 10vw;
+    width: 100%;
+    line-height: 9.5vw;
+  }
+  .home h1 ion-icon {
+    font-size: 8vw;
+  }
+
+  .home p {
+    font-size: 3vw;
+  }
+  .about p,
+  .skills p,
+  .projects p,
+  .contact p {
+    font-size: 2vw;
+  }
+  .about h2,
+  .skills h2,
+  .projects h2,
+  .contact h2 {
+    font-size: 6vw;
+  }
+  .skills h2 {
+    font-size: 5vw;
+  }
+  .btn-contact {
+    padding: 1rem 8rem;
+    font-size: 8vw;
+    top: 4rem;
+  }
+  .about {
+    flex-wrap: wrap;
+  }
+  .box-about {
+    width: 100%;
+  }
+  .box-icons {
+    width: 100%;
+  }
+
+  .skills {
+    flex-wrap: wrap;
+  }
+  .box-experience {
+    width: 100%;
+    padding-right: 0;
+  }
+  .card-course h3 {
+    font-size: 2.5vw;
+  }
+  .card-course span:nth-child(2) {
+    font-size: 1.6vw;
+  }
+  .card-course span:nth-child(3) {
+    font-size: 1.2vw;
+  }
+  .card-course span:nth-child(4) {
+    font-size: 1.4vw;
+  }
+  .box-skills {
+    width: 100%;
+  }
+
+  .box-courses {
+    flex-wrap: nowrap;
+  }
+  .box-courses .card-course {
+    width: 45%;
+    margin-right: 5%;
+  }
+
+  .box-projects {
+    display: flex;
+    margin-top: 4rem;
+    flex-wrap: wrap;
+  }
+  .box-projects ul > div {
+    overflow: hidden;
+    width: 50%;
+    height: 23rem;
+  }
+  .box-projects ul li:hover a {
+    width: 10vw;
+    height: 10vw;
+  }
+  .box-projects ul li img {
+    width: 25vw;
+  }
+
+  #contact {
+    flex-wrap: wrap;
+  }
+  .box-contact-form {
+    width: 100%;
+  }
+  .box-map {
+    height: 300px;
+    width: 100%;
+  }
+  .box-map #map {
+    height: 90%;
+    margin: 0;
+  }
+  .leaflet-popup-content-wrapper .leaflet-popup-content {
+    font-size: 1.2rem;
+  }
+  .leaflet-popup-content-wrapper,
+  .leaflet-popup-tip {
+    background: white;
+    width: 40rem;
+    color: #333;
+    box-shadow: 0 3px 14px rgb(0 0 0 / 40%);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .home span::before {
+    top: -12.6rem;
+  }
+
+  .home h1 {
+    font-size: 9vw;
+  }
+  .home h1::after {
+    right: 1rem;
+  }
+  .home p {
+    font-size: 3vw;
+  }
+  .btn-contact {
+    top: 5rem;
+    font-size: 5rem;
+    width: 100%;
+  }
+
+  .box-about,
+  .box-experience {
+    width: 100%;
+  }
+
+  .about h2,
+  .skills h2,
+  .projects h2,
+  .contact h2 {
+    font-size: 10vw;
+  }
+  .about p,
+  .skills p,
+  .projects p,
+  .contact p {
+    font-size: 3.3vw;
+  }
+
+  .home,
+  #projects,
+  .about,
+  #skills,
+  #skills,
+  #contact {
+    padding: 4rem 4rem;
+  }
+
+  .box-skills {
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
+  #projects::before,
+  .about::before,
+  #skills::before,
+  #skills::before,
+  #contact::before {
+    top: 0rem;
+    left: 1rem;
+  }
+  #projects::after,
+  .about::after,
+  #skills::after,
+  #skills::after,
+  #contact::after {
+    left: 1rem;
+  }
+  .box-icons i {
+    font-size: 16vw;
+  }
+
+  .skill span {
+    font-size: 4.2vw;
+  }
+  .box-courses {
+    flex-wrap: wrap;
+  }
+  .box-courses .card-course {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .card-course h3 {
+    font-size: 4vw;
+  }
+  .card-course span:nth-child(2) {
+    font-size: 2.8vw;
+  }
+  .card-course span:nth-child(3) {
+    font-size: 2.5vw;
+  }
+  .card-course span:nth-child(4) {
+    font-size: 3.3vw;
+  }
+  .box-projects ul > div {
+    overflow: hidden;
+    width: 100%;
+    height: 25rem;
+  }
+  .box-projects ul li:hover a {
+    width: 20vw;
+    height: 20vw;
+  }
+  .box-projects ul li img {
+    width: 42vw;
+  }
+  #contact {
+    margin-top: 0;
+    padding: 3rem ​5rem;
+  }
+
+  .contact-form .nome,
+  .email {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  #contact::after {
+    content: '</section>';
+    position: absolute;
+    color: var(--gray-light-opacity);
+    font-size: 2.5rem;
+    font-family: 'Qwitcher Grypen', cursive;
+    letter-spacing: 2px;
+    bottom: 0.1rem;
+    left: 3rem;
+  }
+  .leaflet-popup-content-wrapper .leaflet-popup-content {
+    font-size: 3vw;
+  }
+  .leaflet-popup-content-wrapper,
+  .leaflet-popup-tip {
+    background: white;
+    width: 26rem;
+    color: #333;
+    box-shadow: 0 3px 14px rgb(0 0 0 / 40%);
+  }
+}
+@media only screen and (max-width: 480px) {
+  .home h1 {
+    font-size: 10vw;
+    line-height: 10vw;
+  }
+  .home h1::after {
+    right: -2rem;
+  }
+  .home span::before {
+    top: -13.6rem;
+    left: -3.8rem;
+  }
+  .home p {
+    font-size: 4vw;
+    letter-spacing: 5px;
+  }
+  .box-icons i {
+    font-size: 30vw;
+  }
+  .btn-contact {
+    top: 2rem;
+    font-size: 3rem;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .home span::before {
+    top: -25.6rem;
+    left: -3.8rem;
+  }
+  .home p {
+    font-size: 5vw;
+    letter-spacing: 3px;
+  }
+  .home h1 {
+    font-size: 11vw;
+    line-height: 10vw;
+  }
+  .btn-contact {
+    top: 12rem;
+    font-size: 5rem;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .home span::before {
+    top: -14.6rem;
+    left: -3.8rem;
+  }
+  .btn-contact {
+    top: 6rem;
+    font-size: 5rem;
+    width: 100%;
+  }
+  .home p {
+    font-size: 5vw;
+    letter-spacing: 1px;
+  }
+}
+
+@media only screen and (max-width: 361px) {
+  .home span::before {
+    top: -19.6rem;
+    left: -3.8rem;
+  }
+  .btn-contact {
+    top: 9rem;
+    font-size: 5rem;
+    width: 100%;
+  }
+  .home p {
+    font-size: 5vw;
+    letter-spacing: 2px;
+  }
+}
