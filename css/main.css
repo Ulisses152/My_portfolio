@@ -128,6 +128,16 @@ body {
   color: var(--orange);
 }
 /*Btn menu*/
+.box-nav-icon {
+  background: rgba(0, 0, 0, 0.3);
+  width: 5rem;
+  height: 5rem;
+  position: fixed;
+  right: 2.5rem;
+  top: 0.9rem;
+  border-radius: 5px;
+  z-index: 999999;
+}
 #nav-icon2 {
   display: none;
   position: fixed;
