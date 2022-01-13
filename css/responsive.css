@@ -381,7 +381,7 @@
     letter-spacing: 5px;
   }
   .box-icons i {
-    font-size: 30vw;
+    font-size: 10vw;
   }
   .btn-contact {
     top: 2rem;
@@ -390,9 +390,6 @@
   }
   .about {
     min-height: 0;
-  }
-  .box-icons i {
-    font-size: 15vw;
   }
 }
 @media only screen and (max-width: 414px) {
@@ -443,5 +440,9 @@
   .home p {
     font-size: 5vw;
     letter-spacing: 2px;
+  }
+  .box-icons i {
+    font-size: 14vw;
+    padding: 0.8rem 0.8rem;
   }
 }
