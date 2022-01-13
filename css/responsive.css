@@ -225,6 +225,10 @@
     color: #333;
     box-shadow: 0 3px 14px rgb(0 0 0 / 40%);
   }
+  .menu a {
+    font-size: 5.5vw;
+    line-height: 16vw;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -262,7 +266,8 @@
   .skills p,
   .projects p,
   .contact p {
-    font-size: 3.3vw;
+    font-size: 3.5vw;
+    line-height: 2.4rem;
   }
 
   .home,
@@ -363,6 +368,18 @@
     color: #333;
     box-shadow: 0 3px 14px rgb(0 0 0 / 40%);
   }
+  .scroll-down {
+    width: 110%;
+
+    bottom: 8rem;
+    left: -2.2rem;
+  }
+  .scroll-anima {
+    font-size: 1.3rem;
+  }
+  .scroll-anima ion-icon {
+    font-size: 2.5vw;
+  }
 }
 @media only screen and (max-width: 480px) {
   .home h1 {
@@ -410,6 +427,12 @@
     font-size: 5rem;
     width: 100%;
   }
+  .scroll-down {
+    width: 112%;
+
+    bottom: 8rem;
+    left: -2.2rem;
+  }
 }
 @media only screen and (max-width: 375px) {
   .home span::before {
@@ -418,7 +441,7 @@
   }
   .btn-contact {
     top: 6rem;
-    font-size: 5rem;
+    font-size: 3rem;
     width: 100%;
   }
   .home p {
@@ -434,7 +457,7 @@
   }
   .btn-contact {
     top: 9rem;
-    font-size: 5rem;
+    font-size: 4rem;
     width: 100%;
   }
   .home p {
@@ -444,5 +467,8 @@
   .box-icons i {
     font-size: 14vw;
     padding: 0.8rem 0.8rem;
+  }
+  .scroll-down {
+    width: 114%;
   }
 }

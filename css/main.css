@@ -146,7 +146,7 @@ body {
   position: absolute;
   height: 5px;
   width: 50%;
-  background: #d3531a;
+  background: var(--orange);
   opacity: 1;
   -webkit-transform: rotate(0deg);
   -moz-transform: rotate(0deg);
