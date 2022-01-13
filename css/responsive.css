@@ -139,12 +139,17 @@
   }
   .about {
     flex-wrap: wrap;
+    min-height: 0;
   }
   .box-about {
     width: 100%;
   }
   .box-icons {
     width: 100%;
+  }
+
+  .box-icons i {
+    font-size: 10vw;
   }
 
   .skills {
@@ -290,7 +295,7 @@
     left: 1rem;
   }
   .box-icons i {
-    font-size: 16vw;
+    font-size: 8vw;
   }
 
   .skill span {
@@ -382,6 +387,12 @@
     top: 2rem;
     font-size: 3rem;
     width: 100%;
+  }
+  .about {
+    min-height: 0;
+  }
+  .box-icons i {
+    font-size: 15vw;
   }
 }
 @media only screen and (max-width: 414px) {

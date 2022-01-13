@@ -327,7 +327,7 @@ svg {
 .btn-contact {
   position: relative;
   margin-top: 6rem;
-  font-size: 4vw;
+  font-size: 3vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -335,7 +335,7 @@ svg {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  width: 50%;
+  width: 28%;
   top: 2rem;
 }
 .btn-contact:before,
@@ -798,13 +798,12 @@ svg {
   color: #fff;
 }
 .box-projects ul li:hover a {
-<<<<<<< HEAD:css/main.css
   width: 8vw;
   height: 8vw;
-=======
+
   width: 80px;
   height: 80px;
->>>>>>> 15c69d7cfc2c1d77dbcf46c84b91f05c9c21b28e:css/style.css
+
   border-radius: 50%;
   color: #fff;
 }
