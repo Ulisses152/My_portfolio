@@ -76,6 +76,9 @@ body {
   flex-direction: column;
   text-align: center;
   transition: 0.2s;
+  margin-left: -120px;
+  opacity: 0;
+  transition: 0.2s;
 }
 .open-menu {
   left: 0;
@@ -89,6 +92,9 @@ body {
   color: #fff;
   padding-bottom: 1rem;
   border-bottom: 1px solid #282828;
+  transform: scale(0);
+  opacity: 0;
+  transition: 0.6s;
 }
 .box_logo h3 {
   font-family: 'Open Sans', sans-serif;
@@ -120,6 +126,9 @@ body {
   color: #909096;
   line-height: 5rem;
   border-bottom: 1px solid #282828;
+  opacity: 0;
+  transition: 0.2s;
+  margin-left: -20px;
   -webkit-transition: color 0.3s, background-color 0.3s;
   -o-transition: color 0.3s, background-color 0.3s;
   transition: color 0.3s, background-color 0.3s;
@@ -239,10 +248,17 @@ body {
   top: 29px;
 }
 /*//Btn menu*/
+.socials {
+  margin-left: -40px;
+  opacity: 0;
+  transition: 0.2;
+}
 .socials ion-icon {
   font-size: 1.5rem;
   padding: 1.3rem 0.5rem;
-  transition: 0.3s;
+
+  opacity: 0;
+  transition: 0.2;
 }
 
 .socials ion-icon:hover {
@@ -312,7 +328,10 @@ body {
   position: relative;
   line-height: 6.5vw;
   width: 62%;
+  opacity: 0;
+  transition: 0.3s;
 }
+
 .home h1 ion-icon {
   font-size: 5vw;
   margin-bottom: -1rem;
@@ -331,7 +350,11 @@ svg {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 8px;
   margin: 2.5rem 4px;
+  margin-left: -20px;
   position: relative;
+
+  transition: 0.2s;
+  opacity: 0;
 }
 
 .btn-contact {
@@ -347,6 +370,9 @@ svg {
   cursor: pointer;
   width: 28%;
   top: 2rem;
+  opacity: 0;
+  transition: 0.25s;
+  transform: scale(0.2);
 }
 .btn-contact:before,
 .btn-contact:after {
@@ -388,9 +414,11 @@ svg {
   display: flex;
   justify-content: space-between;
   left: 0rem;
-  bottom: 7rem;
+  bottom: 11rem;
   font-family: 'Open Sans', sans-serif;
   animation: bounce 1.5s infinite linear;
+  opacity: 0;
+  transition: 0.3s;
 }
 
 .scroll-anima {

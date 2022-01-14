@@ -42,7 +42,11 @@
     position: relative;
   }
 }
-
+@media only screen and (min-width: 768px) {
+  .box-nav-icon {
+    display: none !important;
+  }
+}
 /*tablet*/
 @media only screen and (max-width: 768px) {
   .menu_aside {

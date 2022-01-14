@@ -1,6 +1,6 @@
 const tilesProvider = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 
-let myMap = L.map('map').setView([-23.4862706, -46.8118481], 15);
+let myMap = L.map('map').setView([-23.5113, -46.8768], 10);
 
 L.tileLayer(tilesProvider, {
   maxZoom: 18,
@@ -14,13 +14,9 @@ var logoIcon = L.icon({
   shadowAnchor: [4, 62], // the same for the shadow
   popupAnchor: [10, -76], // point from which the popup should open relative to the iconAnchor
 });
-let marker = L.marker([-23.4862706, -46.8118481], { icon: logoIcon }).addTo(
-  myMap,
-);
+let marker = L.marker([-23.5113, -46.8768], { icon: logoIcon }).addTo(myMap);
 
-marker.bindPopup(
-  'R. Martim Afonso de Souza, 91 - Parque Imperial, Barueri - SP, 06462-130',
-);
+marker.bindPopup('Barueri - SP');
 marker.on('mouseover', function (e) {
   this.openPopup();
 });
