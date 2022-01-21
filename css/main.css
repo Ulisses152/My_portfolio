@@ -486,6 +486,8 @@ svg {
   font-size: 6vw;
   font-family: 'Open Sans', sans-serif;
   color: var(--orange);
+  margin-left: -20px;
+  opacity: 1;
 }
 .about p {
   font-size: 1.5vw;
@@ -502,9 +504,9 @@ svg {
   align-items: center;
 }
 .box-icons i {
-  font-size: 10vw;
+  font-size: 8vw;
   color: var(--orange);
-  padding: 2rem;
+  padding: 1rem;
 }
 /*//section about*/
 /*section skills*/

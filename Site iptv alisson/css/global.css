@@ -1,0 +1,20 @@
+.btn-primary {
+  background-color: #003969;
+}
+.bg-primary {
+  background-color: #003969 !important;
+}
+.btn {
+  color: #fff;
+  font-weight: 600;
+}
+.bg-danger {
+  background-color: #bc1b22 !important ;
+}
+.bg-danger:hover {
+  color: #003969;
+}
+
+.bg-primary:hover {
+  color: #bc1b22;
+}
