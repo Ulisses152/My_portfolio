@@ -27,8 +27,8 @@
 .text-header h1 {
   margin-left: 5rem;
 
-  font-size: 3.9rem;
-  line-height: 3.9rem;
+  font-size: 3rem;
+  line-height: 3rem;
   font-weight: 700;
   color: var(--secondary);
   text-transform: uppercase;
@@ -43,14 +43,14 @@
 
 .bg-right {
   background: var(--primary);
-  height: 100vw;
+  min-height: 100vh;
 }
 #header img {
   width: 28rem;
   height: auto;
   position: absolute;
   right: 11rem;
-  top: 4.6rem;
+  top: 1.6rem;
   background: white;
   border-radius: 50%;
 }

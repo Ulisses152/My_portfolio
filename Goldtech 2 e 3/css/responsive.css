@@ -6,20 +6,18 @@
     border-radius: 10px;
   }
 }
-@media screen and (max-width: 1330px) {
-}
 
 @media screen and (max-width: 1255px) {
   #header {
-    max-height: 600px;
+    min-height: 100vh;
   }
   #header img {
     width: 26rem;
-    top: 5.7rem;
+    top: 1rem;
     right: 10.1rem;
   }
   .height-header {
-    max-height: 600px;
+    min-height: 100vh;
   }
   .text-servicos h2 {
     font-size: 3.5rem;
@@ -31,10 +29,10 @@
 }
 @media screen and (max-width: 1999px) {
   .button-header {
-    bottom: 10px;
+    bottom: 0.8rem;
   }
   .text-header {
-    font-size: 4rem;
+    font-size: 2rem;
   }
   .cards {
     margin: 2rem 0.55rem;
@@ -58,11 +56,11 @@
 
 @media screen and (max-width: 1144px) {
   #header {
-    max-height: 501px;
+    min-height: 100vh;
   }
   .text-header h1 {
-    font-size: 3.4rem;
-    line-height: 3.4rem;
+    font-size: 3rem;
+    line-height: 3rem;
   }
   .text-header p {
     font-size: 1.2rem;
@@ -71,7 +69,7 @@
   #header img {
     width: 20rem;
     right: 10.9rem;
-    top: 5.2rem;
+    top: 2rem;
   }
   #servicos p {
     margin-right: 2rem;
@@ -173,6 +171,7 @@
   }
   .button-header {
     font-size: 1.3rem;
+    bottom: 0.8rem;
   }
 
   .box-servicos {
@@ -314,7 +313,8 @@
   }
   .button-header {
     bottom: 2rem;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    padding: 0.3rem 3rem;
   }
   .text-planos {
     padding: 0 2rem;
