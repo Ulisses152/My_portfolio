@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1255px) {
   #header {
-    min-height: 100vh;
+    min-height: 90vh;
   }
   #header img {
     width: 26rem;
@@ -56,7 +56,7 @@
 
 @media screen and (max-width: 1144px) {
   #header {
-    min-height: 100vh;
+    min-height: 90vh;
   }
   .text-header h1 {
     font-size: 3rem;

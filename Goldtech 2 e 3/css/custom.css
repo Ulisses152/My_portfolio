@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 90vh;
   overflow: hidden;
   box-sizing: border-box;
 }
@@ -21,7 +21,7 @@
   z-index: 999999;
 }
 .height-header {
-  min-height: 100vh;
+  min-height: 90vh;
 }
 
 .text-header h1 {
@@ -43,7 +43,7 @@
 
 .bg-right {
   background: var(--primary);
-  min-height: 100vh;
+  min-height: 90vh;
 }
 #header img {
   width: 28rem;
