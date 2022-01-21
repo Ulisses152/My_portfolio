@@ -280,7 +280,8 @@
     margin-left: 1rem;
   }
   .button-header {
-    font-size: 1.5rem;
+    bottom: 2rem;
+    font-size: 1rem;
   }
   .text-header {
     width: 65%;
@@ -312,7 +313,8 @@
     top: 16px;
   }
   .button-header {
-    font-size: 1.1rem;
+    bottom: 2rem;
+    font-size: 1rem;
   }
   .text-planos {
     padding: 0 2rem;

@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 600px;
+  min-height: 100vh;
   overflow: hidden;
   box-sizing: border-box;
 }
@@ -21,7 +21,7 @@
   z-index: 999999;
 }
 .height-header {
-  height: 600px;
+  min-height: 100vh;
 }
 
 .text-header h1 {
@@ -61,8 +61,8 @@
 
 .button-header {
   position: absolute;
-  bottom: 56px;
-  
+  bottom: 5rem;
+
   left: 50%;
   transform: translateX(-50%);
 }
