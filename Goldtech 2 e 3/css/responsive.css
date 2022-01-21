@@ -121,14 +121,23 @@
 }
 @media screen and (max-width: 991px) {
   #header img {
-    right: 8.2rem;
+    width: 16rem;
+    right: 3.7rem;
   }
-  .text-header h1 {
-    margin-left: 1rem;
+  #header h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-top: 0;
   }
-  .text-header p {
-    margin-left: 1rem;
+  #header p {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
   }
+  .button-header {
+    font-size: 2rem;
+    bottom: 4rem;
+  }
+
   .text-servicos h2 {
     font-size: 2.8rem;
   }
@@ -159,19 +168,23 @@
     font-size: 1rem;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   #header img {
     width: 16rem;
     right: 3.7rem;
   }
   #header h1 {
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: 5rem;
+    line-height: 5rem;
     margin-top: 0;
   }
+  #header p {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+  }
   .button-header {
-    font-size: 1.3rem;
-    bottom: 2rem;
+    font-size: 2rem;
+    bottom: 4rem;
   }
 
   .box-servicos {
