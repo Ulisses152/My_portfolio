@@ -27,8 +27,8 @@
 .text-header h1 {
   margin-left: 5rem;
 
-  font-size: 3rem;
-  line-height: 3rem;
+  font-size: 4rem;
+  line-height: 4rem;
   font-weight: 700;
   color: var(--secondary);
   text-transform: uppercase;

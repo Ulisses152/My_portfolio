@@ -171,7 +171,7 @@
   }
   .button-header {
     font-size: 1.3rem;
-    bottom: 0.8rem;
+    bottom: 2rem;
   }
 
   .box-servicos {
@@ -238,8 +238,8 @@
     right: 2.5rem;
   }
   #header h1 {
-    font-size: 2.5rem;
-    line-height: 2.5rem;
+    font-size: 3rem;
+    line-height: 3rem;
     margin-left: 3rem;
   }
   #header p {
@@ -271,12 +271,13 @@
   }
   #header h1 {
     font-size: 3rem;
-    line-height: 2.8rem;
+    line-height: 3rem;
     margin-left: 1rem;
-    margin-top: -2rem;
   }
   #header p {
     margin-left: 1rem;
+    font-size: 1.7rem;
+    line-height: 1.8rem;
   }
   .button-header {
     bottom: 2rem;
@@ -303,16 +304,16 @@
 }
 @media screen and (max-width: 425px) {
   #header h1 {
-    font-size: 2.4rem;
-    line-height: 2.4rem;
+    font-size: 3rem;
+    line-height: 3rem;
   }
   #header img {
     width: 7rem;
     right: 0.3rem;
-    top: 16px;
+    top: 4.9rem;
   }
   .button-header {
-    bottom: 2rem;
+    bottom: 3rem;
     font-size: 0.9rem;
     padding: 0.3rem 3rem;
   }
@@ -329,7 +330,54 @@
     height: 23rem;
   }
 }
-@media screen and (max-width: 343px) {
+@media screen and (max-width: 414px) {
+  #header h1 {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+  #header p {
+    margin-left: 1rem;
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+  .button-header {
+    bottom: 5rem;
+    font-size: 1.2rem;
+    padding: 0.3rem 3rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  #header h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  #header p {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+  .button-header {
+    bottom: 1.9rem;
+    font-size: 1.2rem;
+    padding: 0.3rem 3rem;
+  }
+}
+
+@media screen and (max-width: 361px) {
+  #header h1 {
+    font-size: 2.8rem;
+    line-height: 2.8rem;
+  }
+  #header p {
+    margin-left: 1rem;
+    font-size: 1.8rem;
+    line-height: 1.9rem;
+  }
+  .button-header {
+    bottom: 1.5rem;
+    font-size: 1.2rem;
+    padding: 0.3rem 3rem;
+  }
   #planos .cards p {
     padding: 0px 3.4rem;
   }
