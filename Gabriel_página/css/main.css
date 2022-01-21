@@ -1,0 +1,128 @@
+*,
+body,
+html {
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box;
+}
+:root {
+  --cor_secundaria: #0bc6d7;
+  --cor_primaria: #000;
+  --font-color: #fff;
+  --font: 'Open Sans', sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #201a1c, #2f2b38);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Inicio header*/
+
+header img {
+  width: 100%;
+  border-bottom: 1px solid #ffffff5e;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  align-items: center;
+}
+.socials a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: var(--cor_secundaria);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.socials a span {
+  font-size: 0.6rem;
+}
+
+.spotify:hover {
+  color: #81b71a;
+}
+
+.deezer:hover {
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ffed00,
+    #ff0092,
+    #c2ff00,
+    #00c7f2,
+    #c1f1fc
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.instagram:hover {
+  color: white;
+  background: linear-gradient(
+    45deg,
+    #f09433 0%,
+    #e6683c 25%,
+    #dc2743 50%,
+    #cc2366 75%,
+    #bc1888 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.facebook:hover {
+  color: #139ef8;
+}
+.youtube:hover {
+  color: #ff0000;
+}
+.whatsapp:hover {
+  color: #2bd046;
+}
+
+/*Final header*/
+/*inicio video*/
+.video h1 {
+  color: #fff;
+  font-family: var(--font);
+}
+.box-video {
+  border-radius: 10px;
+  border: 1px solid var(--cor_secundaria);
+}
+.box-video iframe {
+  height: 400px;
+  width: 98%;
+}
+/*Final video*/
+
+/*inicio sobre*/
+.about h2 {
+  font-size: 4vw;
+  font-family: var(--font);
+  color: var(--cor_secundaria);
+}
+.about p {
+  font-family: var(--font);
+  line-height: 1.6rem;
+  color: #fff;
+}
+/*final sobre*/
+/*Inicio footer*/
+footer {
+  color: #fff;
+  width: 100%;
+  background: var(--cor_secundaria);
+  font-family: var(--font);
+  font-size: 4vw;
+}
+
+/*Final footer*/
