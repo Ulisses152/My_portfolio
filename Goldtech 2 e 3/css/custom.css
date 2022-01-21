@@ -1,0 +1,292 @@
+/*HEADER*/
+
+#header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.container-page {
+  width: 95%;
+  box-sizing: border-box;
+}
+#whatsAppFloat {
+  position: fixed;
+  bottom: 7%;
+  height: 58px;
+  right: 20px;
+  z-index: 999999;
+}
+.height-header {
+  height: 600px;
+}
+
+.text-header h1 {
+  margin-left: 5rem;
+
+  font-size: 3.9rem;
+  line-height: 3.9rem;
+  font-weight: 700;
+  color: var(--secondary);
+  text-transform: uppercase;
+}
+.text-header p {
+  margin-left: 5rem;
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  font-weight: 500;
+}
+
+.bg-right {
+  background: var(--primary);
+  height: 100vw;
+}
+#header img {
+  width: 28rem;
+  height: auto;
+  position: absolute;
+  right: 11rem;
+  top: 4.6rem;
+  background: white;
+  border-radius: 50%;
+}
+.button a {
+  text-decoration: none;
+  color: white;
+}
+
+.button-header {
+  position: absolute;
+  bottom: 56px;
+  
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/*END-HEADER*/
+/*START SERVIÇOS*/
+#servicos {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+#servicos img {
+  background: var(--secondary);
+  border-radius: 10px;
+  margin-left: 2.5rem;
+  height: 30rem;
+  width: 38rem;
+}
+
+.text-servicos {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding-right: 0;
+  padding-left: 6rem;
+  margin-top: -2rem;
+}
+.text-servicos h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: var(--primary);
+  margin-bottom: 2rem;
+}
+
+.text-servicos p {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: black;
+  letter-spacing: -1px;
+}
+
+.topics {
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  color: black;
+}
+#servicos .topics::before {
+  content: '';
+  display: inline-block;
+  width: 40px;
+  height: 10px;
+  margin-right: 0.5rem;
+  border-radius: 2px;
+  background-color: var(--primary);
+}
+.button-servicos {
+  margin-top: 1.5rem;
+}
+
+/*END SERVIÇOS*/
+/*START PLANOS*/
+#planos {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+#planos h2 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: var(--secondary);
+  margin-bottom: 1.5rem;
+}
+#planos p {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  color: black;
+  letter-spacing: -1px;
+  padding: 0 1rem;
+}
+.text-planos span {
+  font-size: 1rem;
+  color: #5a5a5a;
+}
+.text-planos {
+  padding: 0 6rem;
+}
+.bg-red-bottom {
+  width: 100%;
+  background: var(--primary);
+  height: 20rem;
+  z-index: 0;
+  margin-top: -20rem;
+  margin-bottom: 2rem;
+}
+.cards-planos {
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: white;
+  border-radius: 20px;
+  position: relative;
+  flex-direction: column;
+  z-index: 1;
+  margin: 2rem 1rem;
+  width: 16rem;
+  padding-bottom: 1rem;
+}
+
+#planos .cards p {
+  font-size: 1.2rem;
+}
+.battery-quarter {
+  color: var(--secondary);
+  font-size: 8rem;
+}
+.heart {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: var(--primary);
+  font-size: 1.5rem;
+}
+
+.preco {
+  color: var(--primary);
+  font-size: 3rem;
+  font-weight: 700;
+}
+.tempo-plano {
+  color: var(--secondary);
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 25px;
+}
+.button-cards {
+  background: #34af23;
+  z-index: 1;
+
+  width: 40%;
+}
+.button-bottom {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.button-cards:hover {
+  background: transparent;
+  border: 2px solid #34af23;
+  color: #34af23;
+}
+.cards:hover {
+  box-shadow: 0px 0px 10px 3px #0000007a;
+  transform: scale(1.01);
+  transition: 0.2s;
+}
+
+/*END PLANOS*/
+/*START SUPORTE*/
+#suporte {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.box-suporte {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.text-suporte {
+  background: var(--primary);
+}
+.text-suporte h2 {
+  font-size: 3.5rem;
+  color: white;
+  margin-top: 1.8rem;
+}
+.text-suporte p {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: white;
+  padding: 2rem 6rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.fale-conosco {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.whatsapp {
+  margin-top: -2.5rem;
+  margin-bottom: 2rem;
+  width: 5rem;
+  height: auto;
+}
+.fale-conosco span {
+  font-size: 2rem;
+  color: black;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.fale-conosco p {
+  font-size: 1.4rem;
+  color: black;
+}
+.whatsFale {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #34af23;
+  margin-bottom: 4rem;
+  font-size: 1.5rem;
+}
+.whatsFale:hover {
+  text-decoration: underline;
+  color: var(--primary);
+  transition: 0.2s;
+}
+
+/*END SUPORTE*/

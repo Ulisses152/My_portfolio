@@ -1,0 +1,11 @@
+/*Animação reveal*/
+
+[data-anima='center'] {
+  opacity: 0;
+  transform: translate3d(0, 50px, 0px);
+}
+[data-anima='center'].animation {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: 0.8s;
+}

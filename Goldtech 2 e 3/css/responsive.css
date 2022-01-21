@@ -1,0 +1,334 @@
+@media screen and (min-width: 1330px) {
+  body {
+    width: 1330px;
+    margin: 1rem auto;
+    box-shadow: 0px 0px 12px 2px black;
+    border-radius: 10px;
+  }
+}
+@media screen and (max-width: 1330px) {
+}
+
+@media screen and (max-width: 1255px) {
+  #header {
+    max-height: 600px;
+  }
+  #header img {
+    width: 26rem;
+    top: 5.7rem;
+    right: 10.1rem;
+  }
+  .height-header {
+    max-height: 600px;
+  }
+  .text-servicos h2 {
+    font-size: 3.5rem;
+  }
+  .cards {
+    width: 16rem;
+    margin: 2rem 0.65rem;
+  }
+}
+@media screen and (max-width: 1999px) {
+  .button-header {
+    bottom: 10px;
+  }
+  .text-header {
+    font-size: 4rem;
+  }
+  .cards {
+    margin: 2rem 0.55rem;
+  }
+  .button {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  #header img {
+    right: 9rem;
+  }
+  .text-servicos h2 {
+    font-size: 3.3rem;
+  }
+  .cards {
+    margin: 2rem 0.35rem;
+  }
+}
+
+@media screen and (max-width: 1144px) {
+  #header {
+    max-height: 501px;
+  }
+  .text-header h1 {
+    font-size: 3.4rem;
+    line-height: 3.4rem;
+  }
+  .text-header p {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+  #header img {
+    width: 20rem;
+    right: 10.9rem;
+    top: 5.2rem;
+  }
+  #servicos p {
+    margin-right: 2rem;
+  }
+  .topics {
+    margin-right: 0.5rem;
+  }
+  .cards {
+    width: 14rem;
+    padding-bottom: 0.85rem;
+  }
+  #planos .cards p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+  }
+  .battery-quarter {
+    font-size: 6rem;
+  }
+  .preco {
+    font-size: 2.5rem;
+  }
+  .tempo-plano {
+    font-size: 1.8rem;
+  }
+  .bg-red-bottom {
+    height: 16rem;
+    margin-top: -16rem;
+  }
+}
+
+@media screen and (max-width: 1070px) {
+  .text-servicos h2 {
+    font-size: 3rem;
+  }
+  .text-servicos p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+  .topics {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+  #planos p {
+    font-size: 1.2rem;
+  }
+  .fale-conosco p {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  #header img {
+    right: 8.2rem;
+  }
+  .text-header h1 {
+    margin-left: 1rem;
+  }
+  .text-header p {
+    margin-left: 1rem;
+  }
+  .text-servicos h2 {
+    font-size: 2.8rem;
+  }
+  .text-servicos p {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    margin-bottom: 1.5rem;
+  }
+  .topics {
+    font-size: 1rem;
+    line-height: 1.4rem;
+  }
+
+  .cards {
+    width: 23rem;
+    margin-bottom: 0.35rem;
+  }
+  #planos .cards p {
+    padding: 0 5rem;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+  }
+  .bg-red-bottom {
+    margin-top: -38rem;
+    height: 39rem;
+  }
+  .text-suporte p {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  #header img {
+    width: 16rem;
+    right: 3.7rem;
+  }
+  #header h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-top: 0;
+  }
+  .button-header {
+    font-size: 1.3rem;
+  }
+
+  .box-servicos {
+    text-align: center;
+    flex-direction: column-reverse;
+  }
+  .img-servicos {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .img-servicos img {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .text-servicos {
+    text-align: center;
+    padding-left: 0;
+    width: 100%;
+  }
+  #servicos p {
+    margin: 1.5rem;
+  }
+  .text-servicos h2 {
+    font-size: 3.5rem;
+  }
+  .box-topics {
+    margin: 0 auto;
+    width: 53%;
+    text-align: start;
+  }
+  .text-planos {
+    padding: 0 4rem;
+  }
+  #planos {
+    margin-top: 2rem;
+  }
+  #planos h2 {
+    font-size: 3.5rem;
+  }
+  #planos p {
+    font-size: 1.4rem;
+  }
+  .cards {
+    width: 21rem;
+  }
+
+  .button-cards {
+    width: 90%;
+  }
+  #planos .cards p {
+    padding: 0 4rem;
+  }
+  .whatsFale {
+    font-size: 1.2rem;
+  }
+  .fale-conosco {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #header img {
+    width: 14rem;
+    right: 2.5rem;
+  }
+  #header h1 {
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    margin-left: 3rem;
+  }
+  #header p {
+    margin-left: 3rem;
+  }
+  .box-topics {
+    width: 62%;
+  }
+  #servicos img {
+    margin-left: 0;
+    height: 27rem;
+  }
+  .cards {
+    box-shadow: 0px 0px 10px 3px #0000007a;
+  }
+  .bg-red-bottom {
+    height: 85rem;
+    margin-top: -83rem;
+  }
+  .text-suporte p {
+    padding: 2rem 4rem;
+  }
+}
+@media screen and (max-width: 545px) {
+  #header img {
+    width: 9rem;
+    right: 0.4rem;
+    top: 48px;
+  }
+  #header h1 {
+    font-size: 3rem;
+    line-height: 2.8rem;
+    margin-left: 1rem;
+    margin-top: -2rem;
+  }
+  #header p {
+    margin-left: 1rem;
+  }
+  .button-header {
+    font-size: 1.5rem;
+  }
+  .text-header {
+    width: 65%;
+  }
+  .img-header {
+    width: 35%;
+  }
+  .bg-right {
+    height: auto;
+  }
+  .box-topics {
+    width: 80%;
+  }
+  .text-planos {
+    padding: 0 2rem;
+  }
+  .text-suporte p {
+    padding: 2rem 3rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  #header h1 {
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+  }
+  #header img {
+    width: 7rem;
+    right: 0.3rem;
+    top: 16px;
+  }
+  .button-header {
+    font-size: 1.1rem;
+  }
+  .text-planos {
+    padding: 0 2rem;
+  }
+  .text-suporte p {
+    padding: 2rem 1.8rem;
+  }
+  .box-topics {
+    width: 90%;
+  }
+  #servicos img {
+    height: 23rem;
+  }
+}
+@media screen and (max-width: 343px) {
+  #planos .cards p {
+    padding: 0px 3.4rem;
+  }
+}
