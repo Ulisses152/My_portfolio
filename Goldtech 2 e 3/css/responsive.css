@@ -125,17 +125,19 @@
     right: 3.7rem;
   }
   #header h1 {
-    font-size: 5rem;
-    line-height: 5rem;
+    font-size: 3rem;
+    line-height: 3rem;
     margin-top: 0;
+    margin-left: 1rem;
   }
   #header p {
-    font-size: 2.5rem;
-    line-height: 2.5rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-left: 1rem;
   }
   .button-header {
-    font-size: 2rem;
-    bottom: 4rem;
+    font-size: 1.5rem;
+    bottom: 1rem;
   }
 
   .text-servicos h2 {
@@ -174,17 +176,16 @@
     right: 3.7rem;
   }
   #header h1 {
-    font-size: 5rem;
-    line-height: 5rem;
-    margin-top: 0;
-  }
-  #header p {
     font-size: 2.5rem;
     line-height: 2.5rem;
   }
+  #header p {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
   .button-header {
-    font-size: 2rem;
-    bottom: 4rem;
+    font-size: 1rem;
+    bottom: 1rem;
   }
 
   .box-servicos {
@@ -345,8 +346,8 @@
 }
 @media screen and (max-width: 414px) {
   #header h1 {
-    font-size: 3.5rem;
-    line-height: 3.5rem;
+    font-size: 3rem;
+    line-height: 3rem;
   }
   #header p {
     margin-left: 1rem;
@@ -378,16 +379,17 @@
 
 @media screen and (max-width: 361px) {
   #header h1 {
-    font-size: 2.8rem;
-    line-height: 2.8rem;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
   }
   #header p {
     margin-left: 1rem;
-    font-size: 1.8rem;
-    line-height: 1.9rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-top: 3rem;
   }
   .button-header {
-    bottom: 1.5rem;
+    bottom: 4rem;
     font-size: 1.2rem;
     padding: 0.3rem 3rem;
   }
