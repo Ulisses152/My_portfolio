@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background: linear-gradient(180deg, #201a1c, #2f2b38);
+  background-color: #272229 !important;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -22,30 +22,82 @@ body {
 }
 
 /*Inicio header*/
+header {
+  overflow-x: hidden;
+}
 
-header img {
+.box-img-header {
+  position: relative;
+  height: 418.1px;
+  overflow-x: hidden;
+}
+.foto-header {
+  position: absolute;
+  z-index: 2;
+  bottom: 10.8%;
+  width: 79.5vw;
+  right: 7.2%;
+  opacity: 0;
+  margin-bottom: -20px !important;
+  transition: 0.2s;
+}
+.bg-header {
+  position: absolute;
   width: 100%;
-  border-bottom: 1px solid #ffffff5e;
+  height: 100%;
+  opacity: 0;
+  transition: 0.2s;
+}
+.box-letters-header {
+  position: absolute;
+  display: flex;
+  top: 22%;
+  left: 17%;
+  flex-direction: column;
+}
+
+.box-letter-gabriel,
+.box-letter-matos {
+  display: flex;
+  position: absolute;
+}
+.box-letters-header span {
+  width: 0.2rem;
+}
+.box-letters-header span img {
+  width: 30vw;
+  opacity: 1;
+  margin-bottom: -20px !important;
+  opacity: 0;
+  margin-bottom: -20px !important;
+  transition: 0.3s;
+}
+
+.box-socials {
+  margin-top: -1rem !important;
 }
 .socials {
   display: flex;
   justify-content: center;
   gap: 4rem;
   align-items: center;
+  margin-top: -4rem;
 }
 .socials a {
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 3rem;
   color: var(--cor_secundaria);
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  transition: 0.2s;
+  opacity: 0;
 }
 
 .socials a span {
-  font-size: 0.6rem;
+  font-size: 1.7vw;
 }
 
 .spotify:hover {
@@ -97,32 +149,50 @@ header img {
 .box-video {
   border-radius: 10px;
   border: 1px solid var(--cor_secundaria);
+  opacity: 0;
 }
 .box-video iframe {
   height: 400px;
   width: 98%;
+  opacity: 0;
 }
 /*Final video*/
 
 /*inicio sobre*/
 .about h2 {
-  font-size: 4vw;
+  font-size: 3vw;
   font-family: var(--font);
   color: var(--cor_secundaria);
+  opacity: 0;
+  margin-bottom: -20px !important;
+}
+.box-about {
+  display: flex;
+  justify-content: center;
+}
+.box-about img {
+  width: 30vw;
+  margin: 0 auto;
 }
 .about p {
   font-family: var(--font);
   line-height: 1.6rem;
   color: #fff;
+  opacity: 0;
+  margin-bottom: 4.5rem !important;
 }
 /*final sobre*/
 /*Inicio footer*/
 footer {
+  position: relative;
+  bottom: 0;
   color: #fff;
   width: 100%;
   background: var(--cor_secundaria);
   font-family: var(--font);
-  font-size: 4vw;
+  font-size: 1vw;
+  margin-bottom: -20px !important;
+  opacity: 0;
 }
 
 /*Final footer*/

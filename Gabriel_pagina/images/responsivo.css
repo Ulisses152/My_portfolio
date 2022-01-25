@@ -22,10 +22,10 @@
     margin-top: -1.8rem !important;
   }
   .socials a span {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   .socials a {
-    font-size: 2rem;
+    font-size: 2rem ;
   }
   .box-letters-header {
     top: 22%;
@@ -103,7 +103,7 @@
     gap: 2rem;
   }
   .socials a {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   .about h2 {
     font-size: 5vw;
@@ -118,13 +118,14 @@
   }
 }
 @media (max-width: 480px) {
+    
   .box-img-header {
     position: relative;
     height: 200px;
   }
-  .banner {
-    height: 100%;
-  }
+  .banner{
+        height:100%;
+    }
   .foto-header {
     bottom: 11%;
     width: 107.5vw;
@@ -140,13 +141,13 @@
   .socials {
     flex-wrap: wrap;
     gap: 1em;
-    padding-top: 1.2rem !important;
+    padding-top:1.2rem !important;
   }
   .socials a span {
     font-size: 3vw;
   }
   .socials a {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
   .about h2 {
     font-size: 2rem;
@@ -165,9 +166,9 @@
     position: relative;
     height: 200px;
   }
-  .banner {
-    height: 100%;
-  }
+  .banner{
+        height:100%;
+    }
 }
 @media (max-width: 360px) {
   .box-img-header {
@@ -180,29 +181,25 @@
   .foto-header {
     width: 118.5vw;
   }
-  .socials {
-    padding-top: 1.2rem !important;
-  }
-  .socials a {
-    font-size: 1.5rem;
-  }
-  .socials a span {
-    font-size: 2.6vw;
-  }
+  .socials{
+          padding-top: 1.2rem !important;
+}
+  
 }
 
-@media (min-width: 1300px) {
-  .box-img-header {
+@media (min-width: 1300px){
+.box-img-header {
     position: relative;
     height: 500.1px;
-  }
-  .socials a span {
+}
+.socials a span {
     font-size: 2vw;
-  }
-  footer {
-    font-size: 1vw;
-  }
-  .video {
+}
+footer{
+    font-size:1vw;
+}
+.video {
     height: 70%;
   }
+  
 }

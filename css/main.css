@@ -779,7 +779,7 @@ svg {
 .box-projects ul > div {
   overflow: hidden;
   width: 25%;
-  height: 23rem;
+  height: 18rem;
 }
 .box-projects ul li {
   position: relative;
@@ -795,6 +795,9 @@ svg {
   text-align: center;
   overflow: hidden;
   background-color: #fff;
+}
+.jandez-bg {
+  background-color: red !important;
 }
 .box-projects ul li img {
   width: 15vw;
@@ -1062,5 +1065,10 @@ input {
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
 }
-
+.sunny-bg {
+  background-color: #3dbeff !important;
+}
+.gabriel-bg {
+  background-color: #212529 !important;
+}
 /*//section Contact*/
