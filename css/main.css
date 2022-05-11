@@ -268,7 +268,7 @@ body {
 /*Section home*/
 .home {
   width: calc(100% - 12rem);
-  min-height: 100vh;
+  
   color: white;
   position: relative;
   margin-left: 12rem;
@@ -450,7 +450,7 @@ svg {
 /*section about*/
 .about {
   width: calc(100% - 12rem);
-  min-height: 100vh;
+  
   color: white;
   position: relative;
   margin-left: 12rem;
@@ -512,7 +512,7 @@ svg {
 /*section skills*/
 .skills {
   width: calc(100% - 12rem);
-  min-height: 100vh;
+ 
   color: white;
   position: relative;
   margin-left: 12rem;
@@ -680,7 +680,7 @@ svg {
 /*section projects*/
 #projects {
   width: calc(100% - 12rem);
-  min-height: 100vh;
+ 
   color: white;
   position: relative;
   margin-left: 12rem;
@@ -858,7 +858,7 @@ svg {
 
 #contact {
   width: calc(100% - 12rem);
-  min-height: 100vh;
+  
   color: white;
   position: relative;
   margin-left: 12rem;
