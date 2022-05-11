@@ -268,7 +268,7 @@ body {
 /*Section home*/
 .home {
   width: calc(100% - 12rem);
-  
+  min-height:100vh;
   color: white;
   position: relative;
   margin-left: 12rem;
