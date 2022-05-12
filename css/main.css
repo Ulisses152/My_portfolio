@@ -488,7 +488,7 @@ svg {
   font-size: 6vw;
   font-family: 'Open Sans', sans-serif;
   color: var(--orange);
-  margin-left: -20px;
+  
   opacity: 1;
 }
 .about p {
