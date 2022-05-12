@@ -206,24 +206,28 @@
       <h2 class="el">Contato</h2>
       <p>Caso tenha interesse em contratar meus serviços, me envie um email, preenchendo o fomulário a baixo.</p>
 
-      <form action="" class="contact-form">
+      <form action="https://api.staticforms.xyz/submit" method="POST" class="contact-form">
+        
+        <input type="hidden" name="accessKey" value="5699613d-d996-4943-a001-3a4bdf82af96">
+        <input type="hidden" name="redirectTo" value="https://github.com/Ulisses152/My_portfolio/">
+
         <div class="input nome">
-          <input type="text" required placeholder="Nome">
+          <input type="text" required placeholder="Nome" name="name">
           <span class="error"></span>
         </div>
 
 
         <div class="input email">
-          <input type="email" required placeholder="Email">
+          <input type="email" required placeholder="Email" name="email">
           <span class="error"></span>
         </div>
 
         <div class="input assunto">
-          <input type="text" required placeholder="Assunto">
+          <input type="text" required placeholder="Assunto" name="subject">
           <span class="error"></span>
         </div>
         <div class="input mensagem">
-          <input type="text" required placeholder="Mensagem"></input>
+          <input type="text" required placeholder="Mensagem" name="message"></input>
           <span class="error"></span>
         </div>
         <button class="btn-submit" type="submit">Enviar</button>
