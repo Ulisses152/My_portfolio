@@ -65,6 +65,7 @@ h2::after {
 /*Menu Lateral*/
 body {
   background-color: var(--gray-medium);
+  
 }
 
 .menu_aside {
@@ -146,6 +147,7 @@ body {
   top: 0.9rem;
   border-radius: 5px;
   z-index: 999999;
+  opacity: 0;
 }
 #nav-icon2 {
   display: none;
@@ -224,8 +226,8 @@ body {
 }
 
 #nav-icon2.open span:nth-child(2) {
-  left: calc(50% - 8.2px);
-  top: 23px;
+  left: calc(50% - 5px);
+    top: 18px;
 }
 
 #nav-icon2.open span:nth-child(3) {
@@ -254,7 +256,7 @@ body {
   transition: 0.2;
 }
 .socials ion-icon {
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding: 1.3rem 0.5rem;
 
   opacity: 0;
@@ -454,7 +456,7 @@ svg {
   color: white;
   position: relative;
   margin-left: 12rem;
-  padding: 8rem;
+  padding: 12rem;
   box-sizing: border-box;
   overflow: hidden;
   display: flex;
@@ -497,11 +499,13 @@ svg {
   position: relative;
 }
 .box-icons {
-  width: 50%;
+  width: 35%;
   display: flex;
   flex-wrap: wrap;
+  padding-left: 10rem;
   justify-content: center;
-  align-items: center;
+  align-self: center;
+  padding-top: 10rem;
 }
 .box-icons i {
   font-size: 8vw;
@@ -517,7 +521,7 @@ svg {
   position: relative;
   margin-left: 12rem;
   margin-top: -4rem;
-  padding: 8rem;
+  padding: 12rem;
   box-sizing: border-box;
   overflow: hidden;
   display: flex;
@@ -550,7 +554,7 @@ svg {
   font-size: 5vw;
   font-family: 'Open Sans', sans-serif;
   color: var(--orange);
-  line-height: 5.5rem;
+  line-height: 7.5rem;
 }
 .skills h2::before {
   content: '<h2>';
@@ -685,7 +689,7 @@ svg {
   position: relative;
   margin-left: 12rem;
   margin-top: -4rem;
-  padding: 8rem;
+  padding: 12rem;
   box-sizing: border-box;
   overflow: hidden;
 }
@@ -863,7 +867,7 @@ svg {
   position: relative;
   margin-left: 12rem;
   margin-top: -4rem;
-  padding: 8rem;
+  padding: 12rem;
   box-sizing: border-box;
   overflow: hidden;
   display: flex;
